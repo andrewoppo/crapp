@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import Counter from './components/Counter'
 import './App.css';
 
 
@@ -39,6 +40,7 @@ class Color extends React.Component {
 function App() {
   return (
     <div className="App">
+      <Counter />
       <GreetingMessage />
       <hr />
       <WelcomeBlock />
