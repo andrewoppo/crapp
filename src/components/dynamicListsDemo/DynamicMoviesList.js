@@ -4,10 +4,10 @@ import ImprovedCard from "./ImprovedCard";
 class DynamicMoviesList extends Component {
   state = {
     movies: [
-      { id: "fUbJPciPq", title: "The Godfather", director: "Francis Coppola" },
-      { id: "EXN9npPlo", title: "Star Wars", director: "Rian Johnson" },
-      { id: "lecqGHnAb", title: "The Shawshank Redemption", director: "Frank Darabont" }
-    ]
+      { id: "fUbJPciPq", title: "The Godfather", director: "Francis Coppola", hasOscars: true, IMDbRating: 9.2 },
+      { id: "EXN9npPlo",  title: "Star Wars", director: "Rian Johnson" , hasOscars: true, IMDbRating: 8.7 },
+      { id: "lecqGHnAb",  title: "The Shawshank Redemption", director: "Frank Darabont", hasOscars: false, IMDbRating: 9.3 }
+  ]
   }
 
   deleteMovieHandler = id => {
