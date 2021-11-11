@@ -3,6 +3,7 @@ import React from 'react';
 // import Counter from './components/Counter'
 import { listItems, MoviesList } from "./components/ListDemo";
 import DynamicMoviesList from "./components/dynamicListsDemo/DynamicMoviesList.js";
+import TextareaAndSelectTagDemo from './components/dynamicListsDemo/TextareaAndSelectTagDemo';
 import './App.css';
 
 
@@ -78,6 +79,7 @@ class App extends React.Component {
         </div>
         <hr />
         <DynamicMoviesList /> {/* <= instantiate the component */}
+        <TextareaAndSelectTagDemo />
       </div>
     );
   }
